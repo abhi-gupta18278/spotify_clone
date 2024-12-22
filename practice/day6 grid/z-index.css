@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+   border: 2px solid black;
+
+}
+.one{
+    background-color: darkolivegreen;
+    height: 20px;
+    position: relative;
+    z-index: 2; 
+}
+.two{
+    background-color: goldenrod;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+.three{
+    background-color: seagreen;
+}

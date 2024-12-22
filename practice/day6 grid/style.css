@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(75, 226, 11);
+    display: grid;
+
+    grid-template-rows: 100px 100px 100px ;
+    /* grid-template-columns:200px 200px 200px; */
+    /* by this then the gap in the two line gap in the 100px of given  */
+    /* if i write auto in the code then its autometiclly manage the space */
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(11, 11, 236, 0.95);
+    text-align: center;
+    border: 2px solid black;
+
+}

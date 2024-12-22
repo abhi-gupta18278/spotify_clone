@@ -1,0 +1,72 @@
+div[id="myid"] p{
+    color:green;
+}
+/* /* OR WE CAN  WRITE AT THIS FORMAT
+  #myid p{
+  color:green; #one thing that i notice that its a case sensitive 
+ } */
+  *{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  h1{
+    color: #f0a;
+    text-align: center;
+
+
+  }
+  #login  {
+    background-color: rgb(94, 11, 11);
+    color:#fff;
+    text-align: center;
+
+  }
+  #signup  {
+    background-color: rgb(94, 11, 11);
+    color:#fff;
+  }
+  nav ul li a{
+    background-color: #f0a;
+    color:blue;
+  }
+  .follow {
+    color:red;
+    background-color: greenyellow;
+    text-decoration: none;
+  }
+  div>input{
+    background-color: maroon;
+    color:navajowhite
+  }
+  input[type="text"]{
+    color:honeydew;
+  }
+  button:hover{
+  background-color:black;
+  color:red;
+ }
+ h3:hover{
+  text-decoration:underline;
+  color:rgb(11, 226, 11);
+ }
+ p:active {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:blue;
+ }
+ input[type="radio"]:checked +label{
+  color:red;
+  text-decoration:underline;
+
+ }
+ div :nth-of-type(1){
+  color:darkmagenta;
+  background-color:red;
+  text-align:center;
+ }
+ p>.follow ::first-letter {
+  color:burlywood;
+  font-weight:bold
+ }
+ p::selection{
+  color:#000
+  ;
+ }

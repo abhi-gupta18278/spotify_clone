@@ -1,0 +1,28 @@
+#container{
+    height: 400px;
+    width: 80%;
+    margin: 10% auto;
+    border: 3px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse ;   #its reverse the row*/
+    /* flex-direction: column-reverse ;  #its reverse in the row */
+    /* justify-content: center;   #its take the contain in the center */
+    /* justify-content: space-between;   #its taka a seperate space in the box */
+    justify-content:space-around;
+    /* by using space around then we can space in the box and same space in
+    the side option in the element  */
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    color: white;
+}

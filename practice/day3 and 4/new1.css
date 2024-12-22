@@ -1,0 +1,50 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 100px auto;
+    background-color: rgb(212, 57, 10);
+
+}
+div:hover{
+    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.67);
+} */
+
+
+/* backgroud image */
+
+
+#contain{
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    margin:50px ;
+    background-color: purple;
+    background-image: url("IMG_20220825_145443_edited.jpeg");
+    background-size: contain;
+    display: inline-block;
+    
+}
+#cover{
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    margin:50px;
+    background-color: blue;
+    background-image: url("IMG_20220825_145443_edited.jpeg");
+    display: inline-block;
+    background-size: cover;
+
+}
+#auto{
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    margin:50px;
+    background-color: yellow;
+    background-image: url("IMG_20220825_145443_edited.jpeg");
+    display: inline-block;
+    background-size: auto;
+
+
+}
